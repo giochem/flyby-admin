@@ -7,7 +7,7 @@ import "./index.scss";
 import reportWebVitals from "./reportWebVitals";
 
 const httpLink = createHttpLink({
-  uri: "http://localhost:4000/graphql",
+  uri: "https://flyby-gateway.onrender.com/graphql",
 });
 
 const authLink = setContext((_, { headers }) => {
